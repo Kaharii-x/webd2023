@@ -1,0 +1,49 @@
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+    color: #877878;
+    background-image: linear-gradient(to right, #ed2939, #ffffff, #ed2939);
+    line-height: 1.6;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero-text {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+  }
+  
+  ul, ol {
+    margin-left: 2rem;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
