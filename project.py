@@ -168,7 +168,8 @@ if a==1:
         overall=[CT2m,CT3m,Sem1m,pi,pd]
         print(overall)
         print(" open the given url, copy and paste the output overall and save the file as yourusername.txt under same folder as this file")
-        print("https://docs.google.com/document/d/1tx9ZYV2x8AcxwcO2Wpumb0tnEilW55TWOrVY4kBMhQg/edit")
+            #gdocs taken out for personal reasons
+        #print("https://docs.google.com/document/d/1tx9ZYV2x8AcxwcO2Wpumb0tnEilW55TWOrVY4kBMhQg/edit")
         
 
 
