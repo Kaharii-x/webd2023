@@ -8,24 +8,16 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #fff;
-    overflow-x: hidden;
-    background-image: url('https://images.squarespace-cdn.com/content/v1/5d39184fe607390001f305f2/1583138195796-MI5REF7AYQ1TEYNIEUOW/Letter-Animation2.gif?format=1000w');
-    background-size: cover;
-    
-    
-    
-    height: 100vh;
-    padding:0;
-    margin:0;
+    color: #ab7373;
 }
 
 
 .background {
     position: fixed;
+    background: url("https://img3.wallspic.com/crops/3/4/4/5/3/135443/135443-black_and_gold_fountain_pen_on_brown_wooden_table-3840x2160.jpg") no-repeat center center fixed; 
+    background-size: cover;
     width: 200%;
     height: 200%;
-    animation: scrolling 30s linear infinite;
     transform-origin: top left;
     z-index: -1;
 }
@@ -33,13 +25,13 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     width: 100%;
     z-index: 1;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(212, 126, 21, 0.755);
+
 }
 
 
@@ -49,15 +41,11 @@ bar {
 
 
 .navbar a {
-    color: #fff;
+    color: #8d7979;
     text-decoration: none;
     margin-left: 20px;
 }
 
-
-.navbar a:hover {
-    color: #ccc;
-}
 
 
 .contact {

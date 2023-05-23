@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 16px;
+
+  }
+  
+  a {
+    color: #0e92df;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .header {
+    display: flex;
+    background-color: #12a6cb38;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+   
+  .navbar {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar a {
+    font-weight: bold;
+  }
+  
+  .home {
+    background-color: #75e5c0;
+    padding: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  
+  .hero-text {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text span {
+    font-size: 1.5rem;
+    display: block;
+    margin-top: 1rem;
+    font-weight: normal;
+  }
+  
+  .home p {
+    margin-bottom: 1rem;
+  }

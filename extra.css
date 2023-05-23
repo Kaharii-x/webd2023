@@ -166,9 +166,28 @@
   .italic {
     font-style: italic;
   }
+
   body {
     background-image: url("https://img.freepik.com/premium-vector/document-paper-pixel-art-style_475147-813.jpg");
     background-color: #9b6464;
     background-attachment: fixed;
     background-position: center;
    }
+   .navbar {
+    display: flex;
+    background-color: #b39748dc;
+    padding: 10px;
+  }
+ 
+  .navbar a {
+    color: #49cfe8;
+    
+    font-size: 1.2rem;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navbar a:hover {
+    color: #f1c40f;
+  }
+
